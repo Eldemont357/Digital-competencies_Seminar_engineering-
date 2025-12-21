@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+.venv/
+.pytest_cache/
+reports*/
+reports/
