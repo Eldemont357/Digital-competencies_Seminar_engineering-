@@ -11,5 +11,31 @@
       "calinski_harabasz": 11786.95462267153
     },
     "best_k": 2
+  },
+  "dataset_02": {
+    "kmeans": {
+      "silhouette": 0.3068610017701601,
+      "davies_bouldin": 1.3234721699867644,
+      "calinski_harabasz": 3573.3933329348392
+    },
+    "agglomerative": {
+      "silhouette": 0.2658744116185544,
+      "davies_bouldin": 1.4673684423118982,
+      "calinski_harabasz": 2929.722347992005
+    },
+    "best_k": 2
+  },
+  "dataset_03": {
+    "kmeans": {
+      "silhouette": 0.31554470037825183,
+      "davies_bouldin": 1.1577256320598661,
+      "calinski_harabasz": 6957.162639510166
+    },
+    "agglomerative": {
+      "silhouette": 0.30940029307932226,
+      "davies_bouldin": 1.1775936042245867,
+      "calinski_harabasz": 6705.577295073578
+    },
+    "best_k": 3
   }
 }
