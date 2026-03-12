@@ -1,0 +1,8 @@
+experiment_id,dataset,seed,model_summary,optimizer,lr,momentum,weight_decay,epochs_trained,best_val_accuracy,best_val_loss,best_epoch
+E1,synthetic,42,"{""hidden_sizes"": [256, 128], ""dropout"": 0.0, ""use_batchnorm"": false}",Adam,0.001,0.0,0.0,10,0.10888888888888888,2.312526626586914,9
+E2,synthetic,42,"{""hidden_sizes"": [256, 128], ""dropout"": 0.3, ""use_batchnorm"": false}",Adam,0.001,0.0,0.0,10,0.10666666666666667,2.3073671192593044,3
+E3,synthetic,42,"{""hidden_sizes"": [256, 128], ""dropout"": 0.0, ""use_batchnorm"": true}",Adam,0.001,0.0,0.0,10,0.12,2.621772043440077,3
+E4,synthetic,42,"{""hidden_sizes"": [256, 128], ""dropout"": 0.0, ""use_batchnorm"": true}",Adam,0.001,0.0,0.0,5,0.12222222222222222,2.32413711865743,1
+O1,synthetic,42,"{""hidden_sizes"": [256, 128], ""dropout"": 0.0, ""use_batchnorm"": true}",Adam,0.1,0.0,0.0,6,0.10666666666666667,2.3163613859812417,2
+O2,synthetic,42,"{""hidden_sizes"": [256, 128], ""dropout"": 0.0, ""use_batchnorm"": true}",Adam,1e-05,0.0,0.0,6,0.09555555555555556,2.3359881358676486,1
+O3,synthetic,42,"{""hidden_sizes"": [256, 128], ""dropout"": 0.0, ""use_batchnorm"": true}",SGD,0.01,0.9,0.0001,12,0.1111111111111111,2.320667805141873,1
