@@ -1,0 +1,21 @@
+{
+  "dataset": "CIFAR100",
+  "architecture": "SimpleCNN",
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "batch_size": 16,
+  "seed": 42,
+  "device": "cpu",
+  "transforms": {
+    "base": [
+      "Resize(224,224)",
+      "ToTensor()"
+    ],
+    "aug": [
+      "Resize(224,224)",
+      "RandomHorizontalFlip()",
+      "RandomRotation(10)",
+      "ToTensor()"
+    ]
+  }
+}
