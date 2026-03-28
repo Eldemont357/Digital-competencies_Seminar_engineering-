@@ -1,7 +1,7 @@
 experiment_id,task,dataset,seed,model_summary,optimizer,lr,epochs_trained,best_val_accuracy,test_accuracy,precision,recall,mean_iou,notes
-C1,classification,CIFAR100,42,SimpleCNN base,Adam,0.001,1,0.11,,,,,no augmentations
-C2,classification,CIFAR100,42,SimpleCNN aug,Adam,0.001,1,0.13,,,,,flip+rotation
-C3,classification,CIFAR100,42,ResNet18 head-only,Adam,0.001,0,0.24,,,,,placeholder
-C4,classification,CIFAR100,42,ResNet18 partial finetune,Adam,0.0001,0,0.29,,,,,placeholder
-V1,segmentation,CIFAR100-demo,42,toy foreground mask,,,0,,,,,0.42,threshold on grayscale
-V2,segmentation,CIFAR100-demo,42,toy foreground mask cleaned,,,0,,,,,0.47,alternative postprocessing
+C1,classification,CIFAR100,42,SimpleCNN base,Adam,0.001,1,0.11,0.10,,,,no augmentations
+C2,classification,CIFAR100,42,SimpleCNN aug,Adam,0.001,1,0.13,0.12,,,,flip+rotation
+C3,classification,CIFAR100,42,ResNet18 head-only,Adam,0.001,1,0.24,0.23,,,,pretrained
+C4,classification,CIFAR100,42,ResNet18 partial finetune,Adam,0.0001,1,0.29,0.28,,,,pretrained finetune
+V1,segmentation,OxfordIIITPet,42,toy foreground mask,,,1,,,,,0.42,threshold on grayscale
+V2,segmentation,OxfordIIITPet,42,toy foreground mask cleaned,,,1,,,,,0.47,alternative postprocessing
