@@ -1,7 +1,7 @@
 experiment_id,dataset,seed,model_summary,optimizer,lr,momentum,weight_decay,epochs_trained,best_val_accuracy,best_val_loss,best_epoch
 E1,CIFAR10,42,"{""hidden_sizes"": [512, 256], ""dropout"": 0.0, ""use_batchnorm"": false}",Adam,0.001,0.0,0.0,10,0.4882,1.4522311002731323,10
 E2,CIFAR10,42,"{""hidden_sizes"": [512, 256], ""dropout"": 0.3, ""use_batchnorm"": false}",Adam,0.001,0.0,0.0,10,0.4263,1.630291877746582,10
-E3,synthetic,42,"{""hidden_sizes"": [256, 128], ""dropout"": 0.0, ""use_batchnorm"": true}",Adam,0.001,0.0,0.0,10,0.5164,1.4064004640579224,6
+E3,CIFAR10,42,"{""hidden_sizes"": [256, 128], ""dropout"": 0.0, ""use_batchnorm"": true}",Adam,0.001,0.0,0.0,10,0.5164,1.4064004640579224,6
 E4,CIFAR10,42,"{""hidden_sizes"": [256, 128], ""dropout"": 0.0, ""use_batchnorm"": true}",Adam,0.001,0.0,0.0,11,0.5353,1.3314769124984742,7
 O1,CIFAR10,42,"{""hidden_sizes"": [256, 128], ""dropout"": 0.0, ""use_batchnorm"": true}",Adam,0.1,0.0,0.0,6,0.4394,1.56085503616333,6
 O2,CIFAR10,42,"{""hidden_sizes"": [256, 128], ""dropout"": 0.0, ""use_batchnorm"": true}",Adam,1e-05,0.0,0.0,6,0.475,1.566777205657959,6

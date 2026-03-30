@@ -1,11 +1,8 @@
 {
-  "dataset": "synthetic",
+  "dataset": "CIFAR10",
   "seed": 42,
   "model_kwargs": {
-    "hidden_sizes": [
-      256,
-      128
-    ],
+    "hidden_sizes": [256, 128],
     "dropout": 0.0,
     "use_batchnorm": true
   },
