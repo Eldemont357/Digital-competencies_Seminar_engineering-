@@ -1,0 +1,3 @@
+question,answer,retrieved_sources
+What is FAISS?,FAISS is a library for vector search.,doc_02.txt
+What are embeddings?,Embeddings are vector representations of text.,doc_03.txt

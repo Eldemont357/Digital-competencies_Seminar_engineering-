@@ -1,0 +1,4 @@
+query,expected_source,retrieved_sources,hit_at_k
+What is Python?,doc_01.txt,doc_01.txt; doc_08.txt; doc_09.txt,1
+What is FAISS?,doc_02.txt,doc_03.txt; doc_10.txt; doc_01.txt,0
+What are embeddings?,doc_03.txt,doc_02.txt; doc_04.txt; doc_09.txt,0

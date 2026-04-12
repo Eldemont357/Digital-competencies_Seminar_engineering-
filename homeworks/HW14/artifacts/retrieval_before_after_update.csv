@@ -1,0 +1,2 @@
+query,before_retrieved_sources,after_retrieved_sources,changed
+What is RAG?,doc_04.txt,doc_04.txt; doc_05.txt,True
