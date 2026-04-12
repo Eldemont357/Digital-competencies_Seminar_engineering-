@@ -165,7 +165,12 @@ def quality(req: QualityRequest) -> Dict[str, Any]:
 def quality_from_csv(file: UploadFile = File(...)) -> Dict[str, Any]:
     t0 = time.perf_counter()
 
-    df = _read_csv_upload(file)
+    try:
+        df = _read_csv_upload(file)
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=f"Failed to read CSV: {e}")
 
     summary = summarize_dataset(df)
     miss = missing_table(df)
